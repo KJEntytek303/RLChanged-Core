@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.supernovadragon.rlchanged.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "rlchanged.refmap.json",
+  "mixins": [
+    "mod.csp.CSPTransfurEventsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}
